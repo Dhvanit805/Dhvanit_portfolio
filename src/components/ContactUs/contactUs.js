@@ -85,7 +85,7 @@ function ContactUs() {
               <img src={contactSvg} alt="Contact Us" className="img-fluid" style={{ pointerEvents: "none" }} />
             </Col>
           </Row>
-          <Row>
+          <Row style={{ justifyContent: "center", padding: "140px" }}> 
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
