@@ -1,0 +1,81 @@
+/* .tech-icons-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tech-icon-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    border-radius: 8px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .tech-icon {
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+    color: #fdf4f4;
+  }
+  
+  .tech-name {
+    font-size: 1rem;
+    color: #cab7b7;
+    opacity: 0;
+    margin-top: 5px;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover effect
+  .tech-icon-box:hover {
+    transform: translateY(-10px);
+    border-color: #d5dce4;
+    background-color:transparent;
+  }
+  
+  .tech-icon-box:hover .tech-icon {
+    transform: translateY(-5px);
+    color: solid rgba(200, 137, 230, 0.637) !important;
+  }
+  
+  .tech-icon-box:hover .tech-name {
+    opacity: 1;
+  }
+   */
+   /* Center align icons and names */
+.tech-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+  }
+  
+  /* Icon styles */
+  .tech-icon {
+    font-size: 70px; /* Default size */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Name styles */
+  .tech-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* On hover: shrink icon, reveal name */
+  .tech-icon-box:hover .tech-icon {
+    transform: scale(0.8); /* Shrink icon */
+  }
+  
+  .tech-icon-box:hover .tech-name {
+    opacity: 1; /* Reveal name */
+  }
+  
